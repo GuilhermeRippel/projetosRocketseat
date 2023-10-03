@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#hero{
+    margin: auto;
+    width: 592px;
+    margin-bottom: 72px;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-top: 72px 0px 32px 0px;
+}
+
+p{
+    color: #7d7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#footer{
+    font-size: 14px;
+    margin-bottom: 33px;
+}
+
+a{
+    padding: 28px;
+}
+
+span, a{
+    color: #FF9900;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+#line{
+    margin: auto;
+    margin-bottom: 8px;
+    width: 568px;
+    border-top: solid 1px #ECEFF2;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
