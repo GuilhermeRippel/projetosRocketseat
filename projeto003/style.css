@@ -53,7 +53,59 @@ form{
     background-color: #FAFAFC;
     min-height: 300px;
     border-radius: 8px;
+    padding: 64px;
 }
 
+fieldset{
+    border: none;
+    
+}
 
+fieldset legend{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid #E6E6F0;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label{
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-bottom: 8px;
+}
+
+.input-wrapper label span{
+    margin-left: 12px;
+    color: #E6E6F0;
+}
+
+.input-wrapper input, .input-wrapper textarea{
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    height: 56px;
+    padding: 0 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #c1bccc;
+}
+
+.input-wrapper textarea{
+    padding: 0px;
+    height: 168px;
+}
+
+.input-wrapper label span:hover{
+    color: #797981;
+}
 
