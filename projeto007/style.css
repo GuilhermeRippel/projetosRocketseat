@@ -16,7 +16,7 @@ font-family: 'Mulish', sans-serif;
     font-size: 62.5%;
 
     --color-base-white: #ffffff;
-    --color-base-gray-100: #f5f5f5;
+    --color-base-gray-100: #dfdfdf;
     --color-bae-gray-300: #8D8D99;
     --color-base-gray-900: #202024;
     --color-base-gray-500: #3d3d3d;
@@ -42,6 +42,10 @@ body{
 main{
     overflow-y: scroll;
     background-color: var(--color-base-gray-100);
+}
+
+main img{
+    cursor: pointer;
 }
 
 header, nav, nav ul{
@@ -153,3 +157,59 @@ footer p{
     font-weight: 600;
 }
 
+header{
+    --startY: -100%;
+    animation: move 1s;
+}
+
+footer{
+    --startY: 100%;
+    animation: move 1s;
+}
+
+.item{
+    --delay: .4s;
+    animation: appear .6s var(--delay) backwards;
+}
+
+#tittle{
+    animation: tittle 1.6s backwards;
+}
+
+.logo{
+    animation: photo 2s;
+    animation-delay: 3s;
+}
+
+@keyframes move {
+    from{
+        transform: translateY(var(--startY));
+    }
+    
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes tittle{
+    from{
+        transform: translateX(40vh);
+    }
+}
+
+@keyframes photo{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
