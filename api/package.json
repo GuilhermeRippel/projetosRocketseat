@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/server.js"
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "author": "Guilherme Rippel Moraes",
   "license": "ISC",
-  "description": "Primeira API"
+  "description": "Primeira API",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
