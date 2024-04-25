@@ -1,6 +1,6 @@
 import { Container, Links, Content } from './styles'
 
-import { Header } from '../../components/header'
+import { Header } from '../../components/Header'
 
 import { Button } from '../../components/Button'
 
